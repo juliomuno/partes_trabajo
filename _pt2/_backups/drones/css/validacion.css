@@ -1,0 +1,17 @@
+body{
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 1em;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 1em 0;
+}
+
+p.titulo {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: red;
+}

@@ -1,0 +1,92 @@
+/* PANTALLA LOGIN */
+.login {
+	background-color: #02233c;
+	color: white;	
+	padding-top: 25px;
+}
+.login h2{
+	text-align: center;
+}
+.login h4{
+	text-align: center;
+}
+.sublogin {
+	padding-top: 25px;
+}
+
+/* FIN PANTALLA LOGIN */
+
+/* FRAMEWORK */
+.framework {
+	padding-top: 60px;
+}
+
+.navbar {
+	background-color: #02233c;
+	color: white;
+}
+
+@media (max-width: 768px) {
+	.navbar-collapse {
+	    display: block !important;
+	    height: auto !important;
+	    padding-bottom: 0;
+	    overflow: visible !important;
+	}
+	.navbar-nav {
+	    position: relative;
+	    /*float: left;
+	    margin: 0;*/
+	}
+	.navbar-nav > li.izquierda {
+	    float: left;
+	    margin-left: 10px;
+	}
+	
+	.navbar-nav > li.derecha {
+		float: right;
+		margin-right: 10px;
+	}
+	
+	.navbar-nav > li.centro {
+		position: absolute;
+		left: 0;
+		margin: auto;
+		text-align: center;
+		width: 100%;
+	}
+
+	.navbar-nav a {
+		margin: 0;
+		color: white;
+	}
+}
+
+/*
+nav > ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav > ul > li {
+	display: inline-block;
+	padding: 0;
+}
+
+nav > ul > li.left {
+	float: left;
+}
+
+nav > ul > li.right {
+	float: right;
+}
+
+nav > ul > li.titulo {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}*/
+
